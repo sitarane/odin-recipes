@@ -1,1 +1,40 @@
 /* CSS file */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    max-width: 700px;
+    width: 70vw;
+    margin: auto;
+}
+
+img {
+    float: left;
+}
+
+h1 {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+}
+
+.description {
+    background-color: blueviolet;
+    height: 500px;
+}
+
+.ingredients {
+    clear: both;
+    background-color: brown;
+    color: white;
+}
+
+section,
+article {
+    padding: 20px;
+}
+
+article {
+    background-color: lightblue;
+}
