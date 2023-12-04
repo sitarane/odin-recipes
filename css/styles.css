@@ -11,16 +11,31 @@ body {
 .trunk {
     background-image: url(../images/oriental-tiles.png);
     border-radius: 30px;
+    padding: 15px;
 }
+
+h1 {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    margin: 0;
+    margin-bottom: 20px;
+    border-radius: 30px 30px 0 0;
+}
+
 
 .main-list {
     background-color: lightskyblue;
-    color: brown;
-    font-size: 20px;
+    color: darkblue;
+    font-size: 30px;
+    line-height: 2.2;
     text-align: center;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 20px;
+    border-radius: 0 0 30px 30px;
 }
 
   
@@ -29,14 +44,9 @@ body {
     text-decoration: none;
 }
 
-h1 {
-    background-color: darkblue;
-    color: white;
-    text-align: center;
-}
-
 .description {
     background-color: blueviolet;
+    margin-bottom: 20px;
 }
 
 .description::after {
@@ -54,6 +64,7 @@ img {
     clear: both;
     background-color: brown;
     color: white;
+    margin-bottom: 20px;
 }
 
 section,
@@ -61,8 +72,9 @@ article {
     padding: 20px;
 }
 
-article {
+.steps {
     background-color: lightblue;
+    border-radius: 0 0 30px 30px;
 }
 
 button {
