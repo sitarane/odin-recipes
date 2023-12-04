@@ -8,6 +8,11 @@ body {
     margin: auto;
 }
 
+.trunk {
+    background-image: url(../images/oriental-tiles.png);
+    border-radius: 30px;
+}
+
 .main-list {
     background-color: lightskyblue;
     color: brown;
