@@ -9,15 +9,30 @@
 }
 
 body {
-    max-width: 700px;
-    width: 70vw;
-    margin: auto;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.sidebar {
+    flex-grow: 2;
+    flex-basis: 0;
+    min-width: 100px;
+}
+
+.sidebar button {
+    position: sticky;
+    top: 10px;
+    float: right;
+    margin-right: 20px;
 }
 
 .trunk {
     background-image: url(../images/oriental-tiles.png);
     border-radius: 30px;
     padding: 15px;
+    max-width: 700px;
+    width: 70vw;
+    flex-grow: 1;
 }
 
 header {
@@ -51,7 +66,7 @@ h2 {
     border-radius: 0 0 30px 30px;
 }
 
-  
+
 
 .main-list a {
     text-decoration: none;
